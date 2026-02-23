@@ -5,7 +5,7 @@ VisualStudioVersion = 18.1.11312.151
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeBuild", "ZZCakeBuild\CakeBuild.csproj", "{BC68EDF6-C294-4819-B7F4-9EA99B73E69D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuteableQuernTwoElectricBoogaloo", "ChuteableQuernTwoElectricBoogaloo\ChuteableQuernTwoElectricBoogaloo.csproj", "{70BA42BF-246D-3152-25A3-15435604B50C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuteableQuernV2", "ChuteableQuernTwoElectricBoogaloo\ChuteableQuernV2.csproj", "{70BA42BF-246D-3152-25A3-15435604B50C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

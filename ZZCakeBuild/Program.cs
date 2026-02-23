@@ -26,7 +26,7 @@ namespace CakeBuild
 
     public class BuildContext : FrostingContext
     {
-        public const string ProjectName = "ChuteableQuernElectricBoogaloo";
+        public const string ProjectName = "ChuteableQuernV2";
         public string BuildConfiguration { get; }
         public string Version { get; }
         public string Name { get; }
