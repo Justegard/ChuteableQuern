@@ -1,0 +1,9 @@
+[
+  {
+    "op": "add",
+    "path": "/behaviors/1/properties/exceptions/1",
+    "value": "chute-*",
+    "file": "game:blocktypes/stone/quern.json",
+    "side": "Server"
+  }
+]

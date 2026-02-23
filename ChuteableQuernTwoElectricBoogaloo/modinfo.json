@@ -1,0 +1,14 @@
+{
+    "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+    "type": "Code",
+    "modid": "chuteablequerntwoelectricboogaloo",
+    "name": "ChuteableQuernTwoElectricBoogaloo",
+    "authors": [
+        "KnegarKnut"
+    ],
+    "description": "A quern that can output into a chute",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": "1.21.0"
+    }
+}
