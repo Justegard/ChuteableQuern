@@ -1,8 +1,5 @@
-﻿using HarmonyLib;
-using System;
+﻿using System;
 using System.Reflection;
-using Vintagestory.API.Common;
-using Vintagestory.API.Datastructures;
 using Vintagestory.GameContent;
 
 namespace ChuteableQuernElectricBoogaloo
@@ -16,7 +13,7 @@ namespace ChuteableQuernElectricBoogaloo
         {
             InventoryChuteableQuern inventoryChuteableQuern = new InventoryChuteableQuern(null, null);
             inventoryField.SetValue(this, inventoryChuteableQuern);
-            inventoryChuteableQuern.SlotModified += new Action<int>(this.OnSlotModified);
+            inventoryChuteableQuern.SlotModified += new Action<int>(OnSlotModified);
         }
 
         private void OnSlotModified(int slotId)
