@@ -7,8 +7,8 @@
         "KnegarKnut"
     ],
     "description": "Allows chutes to pull items from your quern.",
-    "version": "1.0.1",
+    "version": "2.0.0",
     "dependencies": {
-        "game": "1.21.0"
+        "game": "1.22.0"
     }
 }

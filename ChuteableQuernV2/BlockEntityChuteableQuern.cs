@@ -7,7 +7,7 @@ namespace ChuteableQuernElectricBoogaloo
     public class BlockEntityChuteableQuern : BlockEntityQuern
     {
         private static readonly FieldInfo inventoryField = typeof(BlockEntityQuern).GetField("inventory", BindingFlags.Instance | BindingFlags.NonPublic);
-        private static readonly MethodInfo methodInfo = typeof(BlockEntityQuern).GetMethod("OnSlotModifid", BindingFlags.Instance | BindingFlags.NonPublic);
+        private static readonly MethodInfo methodInfo = typeof(BlockEntityQuern).GetMethod("OnSlotModified", BindingFlags.Instance | BindingFlags.NonPublic);
 
         public BlockEntityChuteableQuern()
         {
